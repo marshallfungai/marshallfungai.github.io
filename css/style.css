@@ -783,6 +783,7 @@
 
 /* Button */
 	#btn-submit,
+	.form-submit-button,
 	input[type="submit"],
 	input[type="reset"],
 	input[type="button"],
@@ -814,6 +815,7 @@
 		white-space: nowrap;
 	}
 		#btn-submit:hover,
+		.form-submit-button:hover,
 		input[type="submit"]:hover,
 		input[type="reset"]:hover,
 		input[type="button"]:hover,
@@ -822,6 +824,7 @@
 			color: #49bf9d !important;
 		}
 		#btn-submit:active,
+		.form-submit-button:active,
 		input[type="submit"]:active,
 		input[type="reset"]:active,
 		input[type="button"]:active,
@@ -831,6 +834,7 @@
 			color: #49bf9d !important;
 		}
 		#btn-submit.icon,
+		.form-submit-button.icon,
 		input[type="submit"].icon,
 		input[type="reset"].icon,
 		input[type="button"].icon,
